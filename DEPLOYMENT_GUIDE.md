@@ -11,11 +11,14 @@ This guide will help you deploy your Complaint Registration App to the cloud so 
 1. Create a GitHub repository
 2. Push your code to GitHub:
 ```bash
+git config --global user.email "rahul.s@atria.edu"
+git config --global user.name "Rahul"
+
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/yourusername/complaint-app.git
+git remote add origin https://github.com/rahul-atria/complaint-app.git
 git push -u origin main
 ```
 
