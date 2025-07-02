@@ -142,7 +142,7 @@ interface ComplaintApi {
 class ComplaintApiService {
     companion object {
         // Production cloud server URL (will be updated after deployment)
-        private const val BASE_URL = "https://your-app-name.onrender.com/api/"
+        private const val BASE_URL = "https://complaint-app-server.onrender.com/api/"
         // For local testing: "http://10.0.2.2:3000/api/"
         // For network testing: "http://10.0.10.137:3000/api/"
         
